@@ -1,23 +1,30 @@
-#Android generated
-bin
-gen
-
-#Eclipse
-.project
-.classpath
-.settings
-
-#IntelliJ IDEA
-.idea
-*.iml
-classes
-
 #Maven
 target
 release.properties
 pom.xml.*
 
-#Command line
+.DS_Store
+.classpath
+.gradle
+.idea
+.project
+*.apk
+*.ap_
+*.class
+*.dex
+*.iml
+*.ipr
+*.iws
+*.sw?
+*~
+bin
+gen
+out
+tmp
 local.properties
-build.xml
-proguard-project.txt
+/*/local.properties
+/*/out
+/*/build
+/*/production
+
+!.idea/gradle.xml
